@@ -13,6 +13,7 @@
 		1CB7763023D24CB000F8D21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7762E23D24CB000F8D21F /* Main.storyboard */; };
 		1CB7763223D24CB300F8D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7763123D24CB300F8D21F /* Assets.xcassets */; };
 		1CB7763523D24CB300F8D21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7763323D24CB300F8D21F /* LaunchScreen.storyboard */; };
+		1CB7766123D2706600F8D21F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7766023D2706600F8D21F /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		1CB7763123D24CB300F8D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB7763423D24CB300F8D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB7763623D24CB300F8D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB7765F23D2706500F8D21F /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		1CB7766023D2706600F8D21F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1CB7762E23D24CB000F8D21F /* Main.storyboard */,
 				1CB7763123D24CB300F8D21F /* Assets.xcassets */,
 				1CB7763323D24CB300F8D21F /* LaunchScreen.storyboard */,
+				1CB7765F23D2706500F8D21F /* SwiftyJSON.h */,
+				1CB7766023D2706600F8D21F /* SwiftyJSON.swift */,
 				1CB7763623D24CB300F8D21F /* Info.plist */,
 			);
 			path = "Api Demo";
@@ -141,6 +146,7 @@
 				1CB7762D23D24CB000F8D21F /* ViewController.swift in Sources */,
 				1CB7762923D24CB000F8D21F /* AppDelegate.swift in Sources */,
 				1CB7762B23D24CB000F8D21F /* SceneDelegate.swift in Sources */,
+				1CB7766123D2706600F8D21F /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
